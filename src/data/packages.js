@@ -171,4 +171,4 @@ export const packages = [
   }
 ];
 
-export const pricingDisclaimer = "All prices are starting prices per person on twin-sharing basis, excluding international flights. Actual cost varies based on travel dates, group size, and customization. Contact us for an exact quote.";
+export const pricingDisclaimer = "We can get you customized pricing! All prices shown are starting estimates per person on twin-sharing basis, excluding international flights. Final pricing varies based on your travel dates, group size, and preferences. Contact us for a personalized quote tailored to your needs.";
