@@ -93,3 +93,41 @@
 - Pricing disclaimer text present on all 3 pages ✅
 - Mobile responsive, no horizontal scroll at 375px ✅
 - 6 experience cards per destination ✅
+
+## Task 7: GitHub Pages Deployment
+
+### Deployment Setup
+- **Workflow file**: `.github/workflows/deploy.yml` created with GitHub Actions
+- **Build process**: Bun install → bun run build → upload dist/ artifact
+- **Deploy**: GitHub Pages with workflow build type
+- **Repository**: Made public (was private, GitHub Pages requires public for free tier)
+- **Base path**: `/glowtrips/` configured in vite.config.js
+
+### Deployment Results
+- ✅ Workflow created and committed
+- ✅ Repository made public via `gh repo edit --visibility public`
+- ✅ GitHub Pages enabled via `gh api repos/disolaterx/glowtrips/pages -X POST`
+- ✅ Deployment completed successfully (workflow status: success)
+- ✅ Live site loads at `https://disolaterx.github.io/glowtrips/` (HTTP 200)
+
+### Live Site QA (Playwright verified on production URL)
+- ✅ Home page loads with correct title and heading
+- ✅ All 7 routes work: `#/`, `#/vietnam`, `#/bali`, `#/thailand`, `#/about`, `#/privacy`, `#/terms`
+- ✅ Vietnam page: 3 packages with correct pricing (₹45K, ₹72K, ₹1.05L)
+- ✅ Bali page: 3 packages with correct pricing (₹38K, ₹58K, ₹78K)
+- ✅ Thailand page: 3 packages with correct pricing (₹28K, ₹52K, ₹82K)
+- ✅ About page: Story, team info, contact methods
+- ✅ Privacy page: Full policy with WhatsApp, data handling, rights sections
+- ✅ Terms page: Service terms, pricing disclaimer, liability, cancellation policy
+- ✅ WhatsApp CTAs: All links correctly point to `wa.me/918708108321` with encoded messages
+- ✅ Mobile layout (375x667): Hamburger menu visible, no horizontal scroll, responsive grid
+- ✅ Console: Zero errors, zero warnings
+- ✅ Assets load correctly from `/glowtrips/assets/` path
+- ✅ SPA routing works with HashRouter (all routes use `#/` prefix)
+
+### Technical Notes
+- GitHub Actions workflow uses Bun for faster builds (oven-sh/setup-bun@v2)
+- `public/404.html` SPA redirect script ensures hash routes work on page reload
+- Vite build output: dist/ directory with proper asset hashing
+- No custom domain configured (can be added later if needed)
+- Repository is now public (visibility change required for free GitHub Pages)
