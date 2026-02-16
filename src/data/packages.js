@@ -4,7 +4,7 @@ export const packages = [
     destination: 'vietnam',
     name: 'Hanoi & Ha Long Bay Express',
     duration: '4 Nights / 5 Days',
-    price: 45000,
+    price: 49999,
     cities: 'Hanoi → Ha Long Bay → Hanoi',
     highlights: [
       'Ha Long Bay overnight cruise',
@@ -22,7 +22,7 @@ export const packages = [
     destination: 'vietnam',
     name: 'Vietnam Heritage Trail',
     duration: '6 Nights / 7 Days',
-    price: 72000,
+    price: 74999,
     cities: 'Hanoi → Ha Long Bay → Da Nang → Hoi An',
     highlights: [
       'Ha Long Bay cruise',
@@ -40,7 +40,7 @@ export const packages = [
     destination: 'vietnam',
     name: 'Grand Vietnam Explorer',
     duration: '9 Nights / 10 Days',
-    price: 105000,
+    price: 99999,
     cities: 'Hanoi → Ninh Binh → Ha Long Bay → Da Nang → Hoi An → Ho Chi Minh City → Mekong Delta',
     highlights: [
       'Tam Coc boat ride',
@@ -60,7 +60,7 @@ export const packages = [
     destination: 'bali',
     name: 'Bali Bliss Getaway',
     duration: '4 Nights / 5 Days',
-    price: 38000,
+    price: 44999,
     cities: 'Ubud → Seminyak',
     highlights: [
       'Tegalalang Rice Terraces',
@@ -78,7 +78,7 @@ export const packages = [
     destination: 'bali',
     name: 'Island Paradise Explorer',
     duration: '6 Nights / 7 Days',
-    price: 58000,
+    price: 64999,
     cities: 'Ubud → Nusa Penida → Seminyak',
     highlights: [
       'Nusa Penida (Kelingking Beach, Angel\'s Billabong, Crystal Bay)',
@@ -96,7 +96,7 @@ export const packages = [
     destination: 'bali',
     name: 'Ultimate Bali & Gili',
     duration: '8 Nights / 9 Days',
-    price: 78000,
+    price: 84999,
     cities: 'Ubud → Nusa Penida → Gili Islands → Seminyak',
     highlights: [
       'Everything in Explorer',
@@ -115,7 +115,7 @@ export const packages = [
     destination: 'thailand',
     name: 'Bangkok & Pattaya Classic',
     duration: '4 Nights / 5 Days',
-    price: 28000,
+    price: 29999,
     cities: 'Bangkok → Pattaya',
     highlights: [
       'Grand Palace & Wat Phra Kaew',
@@ -134,7 +134,7 @@ export const packages = [
     destination: 'thailand',
     name: 'Thai Beach Hopper',
     duration: '6 Nights / 7 Days',
-    price: 52000,
+    price: 54999,
     cities: 'Phuket → Krabi → Bangkok',
     highlights: [
       'Phi Phi Islands by speedboat',
@@ -154,7 +154,7 @@ export const packages = [
     destination: 'thailand',
     name: 'Ultimate Thailand Adventure',
     duration: '8 Nights / 9 Days',
-    price: 82000,
+    price: 79999,
     cities: 'Bangkok → Chiang Mai → Phuket → Krabi',
     highlights: [
       'Chiang Mai temples & Night Bazaar',
